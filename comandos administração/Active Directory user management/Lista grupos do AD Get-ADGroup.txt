@@ -1,0 +1,12 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui um comando simples e funcional para listar e clssificar grupos do AD
+############################################################################
+
+Get-ADGroup | Sort-Object -Property name | Format-Table

@@ -1,0 +1,11 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui um comando que lista od processos iniciados por FC e classifica por uso de CPU
+############################################################################
+get-process -Name fc* | Sort-Object -Property CPU -Descending | Format-Table

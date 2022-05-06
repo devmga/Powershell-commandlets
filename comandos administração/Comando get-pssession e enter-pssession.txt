@@ -1,0 +1,13 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui orientação sobre como criar e sobre como entrar em uma sessão remota em host specífico pelo powershell
+############################################################################
+
+New-PSSession -ComputerName Servidor1
+Enter-PSSession -ComputerName Servidor1

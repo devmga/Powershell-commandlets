@@ -1,0 +1,12 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui informação sobre como executar o comando get-Command com o parâmetro -Module para listar módulos do powershell
+############################################################################
+
+Get-Command -Module ModuleName

@@ -1,0 +1,12 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui um exemplo do comando get-help para a função get-ADUser
+############################################################################
+
+Get-Help Get-ADUser

@@ -1,0 +1,12 @@
+#	
+# Notas
+#===========================================================================
+# Created with: 	Virtual Studio Code
+# Created on:   	12/02/2019 12:08
+# Created by:   	Chaos4455 	
+#===========================================================================
+# DESCRIÇÃO
+#	Este arquivo possui um exemplo de comando para listar usuários de um servidor AD
+############################################################################
+
+Get-ADUser | Sort-Object -Property name -Descending | Format-list
